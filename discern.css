@@ -1,0 +1,266 @@
+@import url('https://fonts.cdnfonts.com/css/made-tommy-soft-outline');
+*{
+    background-color: #1E1E1E;
+    margin: 0;
+    padding: 0;
+    font-family: 'MADE Tommy Soft', sans-serif;
+}
+.navbar {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.logo {
+    width: 100px; 
+}
+.menu-items {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-items li {
+    margin: 0 10px;
+}
+.menu-items li a {
+    color: #fff;
+    text-decoration: none;
+    padding-left:15px ;
+    padding-right:15px ;
+}
+.icons {
+    display: flex;
+    align-items: center;
+}
+.search-icon {
+    margin-right: 10px;
+    color: #fff;
+}
+.search-icon i{
+    font-size:22px;
+}
+.burger-menu {
+    margin-left: 10px;
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 32px;
+}
+/* hover opportunitires redirection */
+
+.dropbtn {
+  color: white;
+   
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 15px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+/* hover opportunitires redirection */
+
+#bg_recognise {
+    background-image: url("Assets/gig_recognise.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 492px;
+    color: #fff;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+.outline {
+    background: none;
+    font-family: 'MADE Tommy Soft Outline', sans-serif;
+    color: rgba(0, 0, 0, 0.1); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-text-stroke: 1px #fff; 
+    font-size: 64px;
+    font-style: normal;
+  
+}
+
+/* Additional styling for the second line */
+#bg_recognise p {
+    background: none;
+    float: left;
+    font-size: 48px; 
+    margin-top: 10px; 
+    padding-left: 5%;
+    line-height: 60%;
+    font-weight: 900;
+}
+
+.miniNav a{
+    text-decoration: none;
+   color: #fff;
+
+}
+.section{
+    padding-top:5%;
+}
+.section, .miniNav{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+hr {
+    position: relative;
+    top:10px;
+    border: none;
+    height:3px;
+    background:#D9D9D9;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.explore ,.tabs{
+    color: #ffffff;
+}
+.tab-content{
+    background-color: #252525;
+    color: #fff;
+    font-size: 16px;
+    font-weight:250;
+}
+.bg_list li{
+  list-style-type: none;
+  background-color:none;
+}
+.container_tab{
+    width:100%;
+    /* min-width: 30em; */
+    display:grid;
+    grid-template-columns:2fr 12fr;
+    margin-bottom: 10%;
+}
+
+.tabs{
+    display: flex;
+    flex-direction:column;
+    padding-top: 20px;
+}
+.tabs h3{
+    padding-bottom: 20px;
+}
+.tab-content div p{
+    padding: 1em 1.5em;
+    background-color: #252525;
+}
+.tab-content div{
+    display: none;
+}
+.tab-content .active{
+    display: block;
+}
+.tabs h3{
+    display: inline-block;
+}
+
+.tabs h3:after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: #fff;
+    transition: 300ms;
+}
+.tabs h3:hover:after{
+    width:50%;
+}
+.footer-home{
+    width:100%;
+    background-color: #181818;
+    padding:150px 100px;
+    margin-top:5%;
+  }
+  
+  .footer-links{
+    display: flex;
+    width: 90%;
+    gap:9%;
+    margin: 5px;
+    color:#FFFFFF;
+    padding: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  .footer-links a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 5px;
+  }
+  
+  .footer-links h3{
+    margin-bottom: 15px;;
+  }
+  
+  .company{
+    display: flex;
+    flex-direction: column;
+  }
+  .programs{
+    display: flex;
+    flex-direction: column;
+  }
+  .transport{
+    display: flex;
+    flex-direction: column;
+  }
+  .retail{
+    display: flex;
+    flex-direction: column;
+  }
+  .support{
+    display: flex;
+    flex-direction: column;
+  }
+  .company{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .connect i{
+    padding:5px;
+    font-size: 2vw;
+    letter-spacing:18px;
+  }
+  
+  .connect h3 {
+    text-align: center;
+  }
+.global-office-text{
+  color: #fff;
+  margin-left:7%;
+}
+  
+
+  
+  

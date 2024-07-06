@@ -1,0 +1,637 @@
+@import url('https://fonts.cdnfonts.com/css/made-tommy-soft-outline');
+body,html{
+    background-color: #141814;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'MADE Tommy Soft', sans-serif;
+}
+
+
+
+
+section {
+    margin: 0;
+    padding: 0;
+   background-image: url("Assests_opp/Landing\ Page\ \(3\).png");  
+   background-size: 100% 100%;
+   background-position: center;
+  
+   height: 140vh;
+ 
+  
+    
+}
+
+/* nav */
+.navbar {
+  color: #fff;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.logo {
+  width: 100px; 
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  
+  padding: 0;
+  margin-inline-start: -3%;
+  
+}
+.menu-items li {
+  margin: 0 35px;
+}
+.menu-items li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10%;
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+  margin-right: 10px;
+  color: #fff;
+}
+.search-icon i{
+  font-size:22px;
+}
+.burger-menu {
+  margin-left: 10px;
+  color: #fff;
+  font-weight: 300;
+  cursor: pointer;
+  font-size: 32px;
+}
+ 
+/* nav */
+
+
+
+/* hover opportunitires redirection */
+
+.dropbtn {
+  background-color: #000;
+  color: white;
+   
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000c01;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 15px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #000c01;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #000c01;} 
+/* hover opportunitires redirection */
+
+
+
+
+
+    .thriving-with-gig {
+        margin: 0;
+  }
+  .thriving-with-gig-container {
+        position: relative;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size:29px;
+        align-self: stretch;
+  }
+  .at-gig-we-container {
+        position: relative;
+        font-size: 17px;
+        letter-spacing: -0.01em;
+       
+  }
+  .thriving-with-gig-empowering-parent {
+    width: 53.5%;
+    position: relative;
+    backdrop-filter: blur(4px);
+    border-radius: 25px;
+    background-color: rgba(18, 55, 82, 0.5);
+    height: 39%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 33px;
+    box-sizing: border-box;
+    gap: 50px;
+    text-align: left;
+    font-size: 35px;
+    color: #fdfdfd;
+
+    top:44%;
+    left: 5%;
+  }
+
+  
+
+
+    /* section 2 */
+
+
+
+
+     h2 {
+  	flex: 1;
+    margin-top: 8%;
+    font-size: 1.7em;
+  	width: 80%;
+  	position: relative;
+
+ 
+  	display: inline-block;
+  	margin-left: 5.4%;
+  	color: #fff;
+  	text-align: left;
+    
+}
+
+
+
+
+    .enterprise-applications-develo {
+        width: 290.7px;
+        position: relative;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        font-weight: 600;
+        display: inline-block;
+        padding: 10px;
+        font-size: 21px;
+  }
+  .from-robust-web {
+        width: 290.7px;
+        position: relative;
+        font-size: 14px;
+        letter-spacing: -0.01em;
+        line-height: 130%;
+        display: inline-block;
+        padding: 10px;
+  }
+  .enterprise-applications-develo-parent {
+        backdrop-filter: blur(4px);
+        border-radius: 25px;
+        background-color: rgba(255, 255, 255, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:center;
+        padding:7px 7px ;
+        font-size: 0.9em;
+        gap: 3px;
+        margin-left: -3%;
+        margin-top: -8%;
+        
+        
+      
+  }
+  .enterprise-applications-develo-parent4{
+    backdrop-filter: blur(4px);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding:7px 7px ;
+    font-size: 0.9em;
+    gap: 3px;
+    margin-left: -3%;
+    margin-top: -8%;
+    
+    
+  
+}
+
+/* .from-robust-web4 {
+  width: 290.7px;
+  position: relative;
+  font-size: 13.3px;
+  letter-spacing: -0.01em;
+  line-height: 130%;
+  display: inline-block;
+  padding: 10px;
+} */
+
+
+  .frame-wrapper {
+        width: 365px;
+        border-radius: 16.09px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 415px 30px 30px;
+        box-sizing: border-box;
+        background-image: url('Assests_opp/Frame3.1.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+  }
+  .frame-container {
+        width: 365px;
+        border-radius: 16.09px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 415px 30px 30px;
+        box-sizing: border-box;
+        background-image: url('Assests_opp/Frame3.2.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+  }
+  .frame-div {
+        width: 365px;
+        border-radius: 16.09px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 413px 30px 30px;
+        box-sizing: border-box;
+        background-image: url('Assests_opp/Frame3.3.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+  }
+  .frame-wrapper1 {
+        width: 365px;
+        border-radius: 16.09px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 415px 30px 30px;
+        box-sizing: border-box;
+        background-image: url('Assests_opp/Frame3.4.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+  }
+  .frame-wrapper2 {
+        width: 365px;
+        border-radius: 16.09px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 415px 30px 30px;
+        box-sizing: border-box;
+        background-image: url('Assests_opp/Frame3.5.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+  }
+
+  .frame-wrapper3 {
+    width: 365px;
+    border-radius: 16.09px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 415px 30px 30px;
+    box-sizing: border-box;
+    background-image: url('Assests_opp/Frame3.6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+  .frame-parent {
+        width: 110vw;
+        position: relative;
+        background-color: #141814;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 37.2px;
+        box-sizing: border-box;
+        gap: 12.9px;
+        /* text-align: left; */
+        font-size: 23px;
+        color: #fdfdfd;
+      
+        margin-left:-6%;
+        margin-top: 4%;
+        
+  }
+
+
+
+
+  /* section 3 */
+
+
+  .at-gig-we {
+    flex: 1;
+    position: relative;
+    font-weight: 500;
+
+}
+.at-gig-we-dont-just-provide-parent {
+width: 100%;
+position: relative;
+background-color: #283e32;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 33px 110px;
+box-sizing: border-box;
+text-align: center;
+font-size: 23.5px;
+color: #fff;
+margin-top: 4%;
+margin-bottom: -2%;
+}
+
+
+
+
+
+
+    /* footer */
+
+
+
+
+
+
+    .footer-home{
+      width:100%;
+      background-color: #181818;
+      padding:150px 100px;
+      margin-top:1%;
+      margin-left: -6%;
+    }
+    
+    .footer-links{
+      display: flex;
+      justify-content: space-between;
+      margin: 5px;
+      color:#FFFFFF;
+      padding: 30px;
+    }
+    .global-office-text{
+      color:#FFFFFF;
+      font-size: 23px;
+      font-weight: 500;
+    }
+    .footer-title{
+      margin-bottom: 3px !important;
+    }
+    
+    .footer-links a{
+      text-decoration: none;
+      color: #FFFFFF;
+      margin: 5px;
+    }
+    
+    .footer-links h3{
+      margin-bottom: 15px;
+    }
+    
+    .company{
+      display: flex;
+      flex-direction: column;
+    }
+    .programs{
+      display: flex;
+      flex-direction: column;
+    }
+    .transport{
+      display: flex;
+      flex-direction: column;
+    }
+    .retail{
+      display: flex;
+      flex-direction: column;
+    }
+    .support{
+      display: flex;
+      flex-direction: column;
+    }
+    .company{
+      display: flex;
+      flex-direction: column;
+    }
+    .footer-global-space{
+      margin-bottom: 15px;
+    }
+    
+    .connect i{
+      padding:5px;
+      font-size: 2vw;
+      letter-spacing:18px;
+    }
+    
+    .connect h3 {
+      text-align: center;
+    }
+      
+
+
+@media only screen and (min-width:320px) and (max-width: 600px) {
+    .navbar ul{
+        display:none;
+    }
+
+
+    section {
+       background-image: url("Assests_opp/Landing\ Page\ \(7\).png");  
+    
+    }
+  
+
+    .fa.fa-search {
+        display: none;
+     }
+ 
+ .logo{
+     margin-left: 1%;
+ }
+ 
+ .at-gig-we-dont-just-provide-parent {
+ 
+     padding: 20px 29px;
+     font-size: 0.9em;
+ 
+ }
+ 
+ 
+ 
+ .at-gig-we-container {
+     font-size: 13.5px;
+    
+ }
+ .thriving-with-gig-empowering-parent {
+ width: 92%;
+ height: 35%;
+ padding: 33px;
+ gap: 30px;
+ top:50%;
+ left:4%;
+ }
+ 
+ 
+ .thriving-with-gig-container{
+   font-size: 0.6em;
+ }
+
+
+
+
+/* section 2 */
+.enterprise-applications-develo {
+    width: 68vw;
+    position: relative;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    padding: 10px;
+}
+.from-robust-web {
+    width: 67vw;
+    position: relative;
+    font-size: 12px;
+    letter-spacing: -0.01em;
+    line-height: 130%;
+    display: inline-block;
+    padding: 10px;
+}
+.enterprise-applications-develo-parent {
+    backdrop-filter: blur(4px);
+    border-radius: 22px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding:7px 7px;
+    font-size: 1em;
+    gap: 3px;
+    margin-top: -27%;
+    
+  
+}
+.frame-wrapper {
+    width: 85vw;
+    border-radius: 16.09px;
+    height: 520px;
+    padding: 427px 30px 30px;
+
+}
+.frame-container {
+   width: 85vw;
+    border-radius: 16.09px;
+    height: 520px;
+    padding: 427px 30px 30px;
+
+}
+.frame-div {
+    width: 85vw;
+    border-radius: 16.09px;
+    height: 520px;
+    padding: 410px 30px 30px;
+  
+}
+.frame-wrapper1 {
+    width: 85vw;
+    border-radius: 16.09px;
+    height: 520px;
+    padding: 427px 30px 30px;
+  
+}
+.frame-wrapper2 {
+    width: 85vw;
+    border-radius: 16.09px;
+    height: 520px;
+    padding: 427px 30px 30px;
+    
+  
+}
+
+.frame-wrapper3 {
+    width: 85vw;
+    border-radius: 16.09px;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 428px 30px 30px;
+    box-sizing: border-box;
+    background-image: url('Assests_opp/Frame3.6.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.frame-parent {
+    width: 110vw;
+    position: relative;
+    background-color: #141814;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 37.2px;
+    box-sizing: border-box;
+    gap: 12.9px;
+    /* text-align: left; */
+    font-size: 23px;
+    color: #fdfdfd;
+
+    margin-left:-5%;
+    
+}
+
+}
+
+
+

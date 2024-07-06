@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Made Tommy Soft";
+}
+
+        
+        /* nav */
+.navbar {
+  color: #fff;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.logo {
+  width: 100px; 
+}
+.menu-items {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  
+  padding: 0;
+  margin-inline-start: -3%;
+  
+}
+.menu-items li {
+  margin: 0 35px;
+}
+.menu-items li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10%;
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+  margin-right: 10px;
+  color: #fff;
+}
+.search-icon i{
+  font-size:22px;
+}
+.burger-menu {
+  margin-left: 10px;
+  color: #fff;
+  font-weight: 300;
+  cursor: pointer;
+  font-size: 32px;
+}
+ 
+/* nav */
+
+/* hover opportunitires redirection */
+
+.dropbtn {
+  background-color: #000;
+  color: white;
+   
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000c01;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 15px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #000c01;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #000c01;} 
+/* hover opportunitires redirection */
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="Assets/Logo (2).svg" alt="Logo"></a>
+         
+        </div>
+        <ul class="menu-items">
+          <!-- <li><a href="#">Opportunities <i id="dropped" class="fa-solid fa-chevron-down"></i></i></a></li> -->
+          
+          <div class="dropdown">
+            <button class="dropbtn">Opportunities <i id="dropped" class="fa-solid fa-chevron-down" style="font-size: 8px;"></i></button>
+            <div class="dropdown-content">
+              <a href="opportunitites_thrive.html">Thrive</a>
+              <a href="opportunities_coretech.html">Coretech</a>
+              <a href="opp_metamorphosize.html">Metamorphosize</a>
+             
+            </div>
+          </div>
+          <li><a href="discern.html">Discern </a></li>
+          <li><a href="investors.html">Investors</i></a></li>
+          <li><a href="Careers.html">Careers</i></a></li>
+          <li><a href="#">News </i></a></li>
+          <li><a href="#">Worldwide</i></a></li>
+        </ul>
+        <div class="icons">
+          <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <span class="burger-menu">&#9776;</span>
+        </div>
+      </div>
+</body>
+</html>

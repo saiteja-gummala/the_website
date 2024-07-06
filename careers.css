@@ -1,0 +1,524 @@
+/* body{
+    font-family: ;
+} */
+/* 
+@font-face {
+    font-family: myFirstFont;
+    src: url(made_tommy_soft/MADE\ Tommy\ Soft\ Regular\ PERSONAL\ USE.otf);
+} */
+
+/* *{
+    
+    font-family: myFirstFont;
+    margin: 0;
+    padding: 0;
+} */
+
+/* hover opportunitires redirection */
+
+.dropbtn {
+  background-color: #000;
+  color: white;
+   
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000c01;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding: 15px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #000c01;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #000c01;} 
+/* hover opportunitires redirection */
+/* nav */
+.navbar {
+  color: #fff;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  
+}
+.logo {
+  width: 100px; 
+  margin-left: 2%;
+}
+.menu-items {
+  
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  
+  padding: 0;
+  margin-inline-start: -3%;
+  
+}
+.menu-items li {
+  margin: 0 35px;
+}
+.menu-items li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10%;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  margin-right: 2%;
+}
+.search-icon {
+  margin-right: 10px;
+  color: #fff;
+}
+.search-icon i{
+  font-size:22px;
+}
+.burger-menu {
+  margin-left: 10px;
+  color: #fff;
+  font-weight: 300;
+  cursor: pointer;
+  font-size: 32px;
+}
+ 
+/* nav */
+
+  
+/* Footer */
+.footer-home{
+  width:100%;
+  background-color: #181818;
+  padding:150px 100px;
+  margin: 0;
+
+}
+
+.footer-links{
+  display: flex;
+  justify-content: space-between;
+   
+  color:#FFFFFF;
+  padding: 30px;
+  background-color: #181818;
+  /* margin-top: 10%; */
+  
+}
+
+.footer-links a{
+  text-decoration: none;
+  color: #FFFFFF;
+  margin: 5px;
+}
+
+.footer-links h3{
+  margin-bottom: 15px;;
+}
+
+.company{
+  display: flex;
+  flex-direction: column;
+}
+.programs{
+  display: flex;
+  flex-direction: column;
+}
+.transport{
+  display: flex;
+  flex-direction: column;
+}
+.retail{
+  display: flex;
+  flex-direction: column;
+}
+.support{
+  display: flex;
+  flex-direction: column;
+}
+.company{
+  display: flex;
+  flex-direction: column;
+}
+
+.connect i{
+  padding:5px;
+  font-size: 2vw;
+  letter-spacing:18px;
+}
+
+.connect h3 {
+  text-align: center;
+}
+
+@media(max-width:600px) {
+  .gig-finder {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.four-rectangle{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+}
+
+
+
+/* Footer */
+html{
+    overflow-x: hidden;
+}
+.bg-color-gig {
+    background: rgb(22, 91, 71);
+    background: linear-gradient(180deg, rgba(22, 91, 71, 1) 65%, rgba(0, 0, 0, 1) 35%);
+}
+
+.image-overlay {
+    height: 280px;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.image-overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.8));
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.slideimg {
+    width: 100%;
+    height: 366px;
+
+}
+
+.dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 32px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #29AB87;
+    width: 48px;
+    border-radius: 32px;
+ 
+}
+.channels-heading{
+  font-size: 38px;
+  font-weight: 600;
+}
+.iconfontsize{
+  font-size: 50px;
+  font-weight: 400;
+}
+.colpad{
+  padding: 80px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.prev:hover,
+.next:hover {
+    color: white;
+}
+
+.whyus {
+    font-size: 58px;
+    font-weight: 600;
+    color: #29AB87;
+}
+
+.opportunities {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.spanst {
+    font-size: 20px;
+    color: #D7E2FA;
+}
+
+.cardtitle {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.arrowiconposition {
+    text-align: right;
+}
+
+.slidetext {
+    font-size: 28px;
+    font-weight: 400;
+    color: #AFAFAF;
+}
+.pioneeringbackground{
+    background: #165B47;
+}
+.pioneeringhead {
+    font-size: 38px;
+    font-weight: 600;
+}
+.pioneeringtext {
+    font-size: 28px;
+    font-weight: 400;
+}
+.pioneeringbutton {
+    background: #29AB87;
+    color: white;
+    border-radius: 8px;
+    padding: 8px, 16px, 8px, 16px;
+    height: 40px;
+    width: 167px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px;
+}
+.imgpadding{
+    padding: 0px !important;
+}
+
+/* hemant code */
+.img-fl{
+    height: 50vh;
+    width: 100%;
+    
+}
+.customOpacity{
+    background-image: url('your-background-image.jpg');
+      background-size: cover;
+      background-position: center;
+       height: 50vh;
+      position: relative;
+} 
+.customOpacity::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(9, 9, 9, 0.5); /* Adjust opacity here */
+}
+.overlay-t {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   color: #FFFFFF;
+   
+    
+  }
+ .btn-secondary{
+    margin-top: 20px;
+    padding: 10px; 
+    width: 120px;
+    border-radius: 10px;
+    background-color: #29AB87 ;
+    color: #FFFFFF;
+    border: none;
+ }
+ .p-2{
+    width: auto;
+     
+ }
+ /* Raja kishore */
+
+
+ .career-chronicles1 {
+    margin: 0;
+    height: 87px;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .left-panel-icon {
+    width: 336px;
+    position: relative;
+    max-height: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+    min-height: 452px;
+    max-width: 100%;
+     
+  }
+  .alitaa,
+  .software-developer {
+    position: relative;
+    letter-spacing: 0.1px;
+  }
+  .alitaa {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .software-developer {
+    font-size: 18px;
+    color: var(--color-darkgray);
+    white-space: nowrap;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .alita-software-developer,
+  .blank-line,
+  .growing-up-in,
+  .i-came-to,
+  .my-favorite-part {
+    margin: 0;
+  }
+  .i-came-to-container {
+    align-self: stretch;
+    position: relative;
+    font-size: 17px;
+    letter-spacing: 0.1px;
+    color: var(--color-darkgray);
+  }
+  .career-chronicles,
+  .main,
+  .right-panel {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .right-panel {
+    flex: 1;
+    flex-direction: column;
+    gap: 24px;
+    min-width: 555px;
+    max-width: 100%;
+  }
+  .career-chronicles,
+  .main {
+    text-align: left;
+    font-family: var(--font-poppins);
+  }
+  .main {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 50px;
+    max-width: 100%;
+    font-size: 42px;
+    color: #fff;
+  }
+  .career-chronicles {
+    width: 100%;
+    position: relative;
+    background-color: #111;
+    flex-direction: column;
+    padding: var(--padding-31xl) 99px var(--padding-31xl) 100px;
+    box-sizing: border-box;
+    gap: 32px;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 58px;
+    color: #29ab87;
+    padding-left: 74px;
+    padding-right: 61px;
+  }
+  @media screen and (max-width: 1200px) {
+    .left-panel-icon {
+      flex: 1;
+    }
+    .main {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .career-chronicles1 {
+      font-size: 46px;
+    }
+    .alitaa {
+      font-size: 34px;
+    }
+    .right-panel {
+      min-width: 100%;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .main {
+      gap: 25px;
+    }
+    .career-chronicles {
+      gap: 16px;
+      padding-left: var(--padding-31xl);
+      padding-right: 49px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .career-chronicles1 {
+      font-size: 35px;
+    }
+    .alitaa {
+      font-size: 25px;
+    }
+    .career-chronicles {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
+
+ /* Raja kishore */
